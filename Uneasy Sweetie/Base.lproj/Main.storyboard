@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="RemachineScript_Personal_Use.ttf">
+            <string>RemachineScriptPersonalUse</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Unchosen View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="UnchosenViewController" customModule="Sweetie" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Blur" translatesAutoresizingMaskIntoConstraints="NO" id="odq-Kr-Knd" userLabel="Sweetie Image View">
+                                <frame key="frameInset" width="600" height="600"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Uneasy Sweetie" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kqI-BG-MlK">
+                                <frame key="frameInset" minX="170" minY="46" width="260" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="awf-f7-1Wn"/>
+                                    <constraint firstAttribute="width" constant="260" id="mEb-Ui-hQR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="RemachineScriptPersonalUse" family="Remachine Script Personal Use" pointSize="60"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a8d-g2-Jux">
+                                <frame key="frameInset" minX="250" minY="149" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="a8d-g2-Jux" secondAttribute="height" multiplier="1:1" id="75V-dW-pBj"/>
+                                    <constraint firstAttribute="width" constant="75" id="93V-dL-Fbj"/>
+                                    <constraint firstAttribute="width" constant="120" id="B0R-pV-J3q"/>
+                                    <constraint firstAttribute="width" secondItem="a8d-g2-Jux" secondAttribute="height" multiplier="1:1" id="BZ5-bd-XSX"/>
+                                    <constraint firstAttribute="width" constant="100" id="HHk-Vh-XgD"/>
+                                    <constraint firstAttribute="height" constant="75" id="YAU-Mt-taF"/>
+                                    <constraint firstAttribute="width" constant="75" id="c3E-2d-pX7"/>
+                                    <constraint firstAttribute="height" constant="75" id="cNH-6d-TJ5"/>
+                                    <constraint firstAttribute="width" constant="75" id="cdj-tQ-uBd"/>
+                                    <constraint firstAttribute="width" constant="75" id="cz1-aD-hYq"/>
+                                    <constraint firstAttribute="width" constant="75" id="dlb-7Z-uPK"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="75" id="elW-sw-1zG"/>
+                                    <constraint firstAttribute="width" constant="75" id="g8X-VZ-3Oc"/>
+                                    <constraint firstAttribute="width" constant="90" id="lmh-ti-11u"/>
+                                    <constraint firstAttribute="height" constant="100" id="smg-Rb-YrQ"/>
+                                </constraints>
+                                <state key="normal" image="PlusButton">
+                                    <color key="titleColor" red="0.5455520707" green="0.55103189019999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="75V-dW-pBj"/>
+                                        <exclude reference="93V-dL-Fbj"/>
+                                        <exclude reference="B0R-pV-J3q"/>
+                                        <exclude reference="YAU-Mt-taF"/>
+                                        <exclude reference="c3E-2d-pX7"/>
+                                        <exclude reference="cNH-6d-TJ5"/>
+                                        <exclude reference="cdj-tQ-uBd"/>
+                                        <exclude reference="cz1-aD-hYq"/>
+                                        <exclude reference="dlb-7Z-uPK"/>
+                                        <exclude reference="elW-sw-1zG"/>
+                                        <exclude reference="g8X-VZ-3Oc"/>
+                                        <exclude reference="lmh-ti-11u"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="addContact:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jV5-Vb-WxC"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Instructions" translatesAutoresizingMaskIntoConstraints="NO" id="1V3-g8-0kU">
+                                <frame key="frameInset" minX="196" minY="263" width="208" height="86"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="86" id="8J1-hh-swX"/>
+                                    <constraint firstAttribute="width" constant="208" id="Fga-LT-bBr"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="8J1-hh-swX"/>
+                                        <exclude reference="Fga-LT-bBr"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="1V3-g8-0kU" firstAttribute="centerX" secondItem="a8d-g2-Jux" secondAttribute="centerX" id="0eo-mX-UCS"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="a8d-g2-Jux" secondAttribute="bottom" constant="374" id="1AJ-rs-Ozf"/>
+                            <constraint firstItem="a8d-g2-Jux" firstAttribute="top" secondItem="kqI-BG-MlK" secondAttribute="bottom" constant="54" id="4vM-hf-xQ8"/>
+                            <constraint firstItem="kqI-BG-MlK" firstAttribute="centerX" secondItem="a8d-g2-Jux" secondAttribute="centerX" id="7s3-J2-MaT"/>
+                            <constraint firstItem="odq-Kr-Knd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="DaH-86-UeM"/>
+                            <constraint firstItem="a8d-g2-Jux" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="131" id="G4D-BV-WF7"/>
+                            <constraint firstItem="1V3-g8-0kU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KCN-Vb-TVT"/>
+                            <constraint firstItem="1V3-g8-0kU" firstAttribute="top" secondItem="a8d-g2-Jux" secondAttribute="bottom" constant="14" id="M8m-Sn-T5x"/>
+                            <constraint firstItem="odq-Kr-Knd" firstAttribute="centerX" secondItem="a8d-g2-Jux" secondAttribute="centerX" id="RsI-az-UnH"/>
+                            <constraint firstItem="a8d-g2-Jux" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="268" id="XDX-Zw-7Vq"/>
+                            <constraint firstItem="odq-Kr-Knd" firstAttribute="centerY" secondItem="1V3-g8-0kU" secondAttribute="centerY" id="ZVV-4R-lib"/>
+                            <constraint firstItem="kqI-BG-MlK" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="26" id="f0p-th-W4k"/>
+                            <constraint firstItem="odq-Kr-Knd" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="gEy-li-Yah"/>
+                            <constraint firstItem="1V3-g8-0kU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gdb-VG-Tj8"/>
+                            <constraint firstItem="odq-Kr-Knd" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="yYV-o8-BkV"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="ZVV-4R-lib"/>
+                                <exclude reference="G4D-BV-WF7"/>
+                                <exclude reference="XDX-Zw-7Vq"/>
+                                <exclude reference="gdb-VG-Tj8"/>
+                                <exclude reference="1AJ-rs-Ozf"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="addContactButton" destination="a8d-g2-Jux" id="vhn-nw-yKq"/>
+                        <outlet property="instructions" destination="1V3-g8-0kU" id="JXI-Do-M3g"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="225" y="313"/>
+        </scene>
+        <!--Chosen Sweetie View Controller-->
+        <scene sceneID="rwa-Em-0Qf">
+            <objects>
+                <viewController storyboardIdentifier="ChosenSweetie" id="g0A-Oh-hW2" customClass="ChosenSweetieViewController" customModule="Sweetie" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ucC-8l-pOP"/>
+                        <viewControllerLayoutGuide type="bottom" id="f3M-r5-11V"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="onq-8y-Bhs">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Blur" translatesAutoresizingMaskIntoConstraints="NO" id="Vyz-U1-87w" userLabel="Sweetie Image View">
+                                <frame key="frameInset" width="600" height="600"/>
+                            </imageView>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bvB-VK-wcg">
+                                <frame key="frameInset" minX="20" minY="546" width="45" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="45" id="g8t-RH-Gab"/>
+                                </constraints>
+                                <state key="normal" image="ResetButton">
+                                    <color key="titleColor" red="0.5455520707" green="0.55103189019999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="reset:" destination="g0A-Oh-hW2" eventType="touchUpInside" id="pKP-rW-jWc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" alpha="0.69999999999999996" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R77-St-MgX">
+                                <frame key="frameInset" minX="145" minY="367" width="310" height="111"/>
+                                <color key="backgroundColor" red="0.99427323609999996" green="0.99780480709999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="R77-St-MgX" secondAttribute="height" multiplier="310:111" id="Epi-lk-1VB"/>
+                                </constraints>
+                                <size key="titleShadowOffset" width="2" height="2"/>
+                                <state key="normal" image="ContactSweetieButton">
+                                    <color key="titleColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="contactSweetie:" destination="g0A-Oh-hW2" eventType="touchUpInside" id="NL9-0t-XaE"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="First Last Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AWl-y1-ura">
+                                <frame key="frameInset" minX="20" minY="278" width="560" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="560" id="Wrh-Fo-uvE"/>
+                                    <constraint firstAttribute="height" constant="34" id="gqH-7X-vsy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Damascus" family="Damascus" pointSize="23.5"/>
+                                <color key="textColor" red="0.99427323609999996" green="0.99780480709999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JTT-CY-siu" userLabel="Cirlce Sweetie Picture">
+                                <frame key="frameInset" minX="240" minY="147" width="120" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="69F-kL-oyM"/>
+                                    <constraint firstAttribute="width" secondItem="JTT-CY-siu" secondAttribute="height" multiplier="1:1" id="90j-pc-PrN"/>
+                                    <constraint firstAttribute="width" constant="120" id="i5e-Se-x8I"/>
+                                    <constraint firstAttribute="height" constant="140" id="uIY-rh-KJA"/>
+                                    <constraint firstAttribute="height" priority="250" constant="120" id="uTu-mj-H83"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="69F-kL-oyM"/>
+                                        <exclude reference="uIY-rh-KJA"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Uneasy Sweetie" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="asB-1b-lX1">
+                                <frame key="frameInset" minX="170" minY="55" width="260" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="75m-5o-nRT"/>
+                                    <constraint firstAttribute="width" constant="260" id="fez-1w-Nsj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="RemachineScriptPersonalUse" family="Remachine Script Personal Use" pointSize="60"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Vyz-U1-87w" firstAttribute="leading" secondItem="onq-8y-Bhs" secondAttribute="leading" id="0ET-vj-4Dh"/>
+                            <constraint firstItem="bvB-VK-wcg" firstAttribute="top" relation="lessThanOrEqual" secondItem="R77-St-MgX" secondAttribute="bottom" priority="250" constant="68" id="2Ld-YI-QXj"/>
+                            <constraint firstItem="R77-St-MgX" firstAttribute="top" relation="lessThanOrEqual" secondItem="AWl-y1-ura" secondAttribute="bottom" constant="65" id="3IA-Qb-cN8"/>
+                            <constraint firstItem="JTT-CY-siu" firstAttribute="top" secondItem="asB-1b-lX1" secondAttribute="bottom" constant="69" id="3kx-Bw-87A"/>
+                            <constraint firstItem="f3M-r5-11V" firstAttribute="top" secondItem="bvB-VK-wcg" secondAttribute="bottom" constant="14" id="4tq-dE-J1B"/>
+                            <constraint firstItem="JTT-CY-siu" firstAttribute="centerX" secondItem="Vyz-U1-87w" secondAttribute="centerX" id="84t-vL-pQX"/>
+                            <constraint firstItem="JTT-CY-siu" firstAttribute="centerX" secondItem="AWl-y1-ura" secondAttribute="centerX" id="CaL-YC-gbF"/>
+                            <constraint firstItem="bvB-VK-wcg" firstAttribute="top" secondItem="Vyz-U1-87w" secondAttribute="bottom" constant="-54" id="DzP-M4-OME"/>
+                            <constraint firstItem="R77-St-MgX" firstAttribute="top" secondItem="AWl-y1-ura" secondAttribute="bottom" constant="76" id="GBB-po-YF3"/>
+                            <constraint firstItem="AWl-y1-ura" firstAttribute="top" secondItem="JTT-CY-siu" secondAttribute="bottom" constant="11" id="Ibh-ib-95Z"/>
+                            <constraint firstItem="bvB-VK-wcg" firstAttribute="top" secondItem="R77-St-MgX" secondAttribute="bottom" constant="42" id="Juj-t3-iaw"/>
+                            <constraint firstItem="JTT-CY-siu" firstAttribute="top" secondItem="asB-1b-lX1" secondAttribute="bottom" constant="20" id="KPG-JI-0jG"/>
+                            <constraint firstItem="R77-St-MgX" firstAttribute="centerX" secondItem="AWl-y1-ura" secondAttribute="centerX" id="NAS-pb-Cc5"/>
+                            <constraint firstItem="R77-St-MgX" firstAttribute="top" secondItem="Vyz-U1-87w" secondAttribute="bottom" constant="-266" id="Pv0-sP-hXc"/>
+                            <constraint firstItem="R77-St-MgX" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="onq-8y-Bhs" secondAttribute="leadingMargin" constant="25" id="QGN-LL-IMy"/>
+                            <constraint firstItem="R77-St-MgX" firstAttribute="top" secondItem="AWl-y1-ura" secondAttribute="bottom" constant="76" id="QOu-rT-7Tk"/>
+                            <constraint firstItem="R77-St-MgX" firstAttribute="top" relation="greaterThanOrEqual" secondItem="AWl-y1-ura" secondAttribute="bottom" constant="20" id="Vb4-6w-tnq"/>
+                            <constraint firstItem="asB-1b-lX1" firstAttribute="top" relation="greaterThanOrEqual" secondItem="ucC-8l-pOP" secondAttribute="bottom" constant="10" id="WOG-mh-Q1r"/>
+                            <constraint firstItem="JTT-CY-siu" firstAttribute="top" secondItem="ucC-8l-pOP" secondAttribute="bottom" constant="66" id="WQc-ZR-sOL"/>
+                            <constraint firstItem="Vyz-U1-87w" firstAttribute="top" secondItem="onq-8y-Bhs" secondAttribute="top" id="Y65-jY-7FM"/>
+                            <constraint firstItem="bvB-VK-wcg" firstAttribute="top" relation="greaterThanOrEqual" secondItem="R77-St-MgX" secondAttribute="bottom" constant="20" id="bfP-LT-PUB"/>
+                            <constraint firstAttribute="trailing" secondItem="Vyz-U1-87w" secondAttribute="trailing" id="dSy-tl-zLt"/>
+                            <constraint firstItem="asB-1b-lX1" firstAttribute="top" relation="lessThanOrEqual" secondItem="ucC-8l-pOP" secondAttribute="bottom" constant="35" id="dYi-ZO-TDI"/>
+                            <constraint firstItem="AWl-y1-ura" firstAttribute="top" secondItem="JTT-CY-siu" secondAttribute="bottom" constant="8" symbolic="YES" id="ePl-8N-dYM"/>
+                            <constraint firstItem="JTT-CY-siu" firstAttribute="top" secondItem="asB-1b-lX1" secondAttribute="bottom" priority="250" constant="43" id="hZA-pg-X2m"/>
+                            <constraint firstItem="Vyz-U1-87w" firstAttribute="bottom" secondItem="f3M-r5-11V" secondAttribute="top" id="j5H-1V-SRo"/>
+                            <constraint firstItem="f3M-r5-11V" firstAttribute="top" secondItem="bvB-VK-wcg" secondAttribute="bottom" constant="14" id="jHK-NL-tS1"/>
+                            <constraint firstItem="JTT-CY-siu" firstAttribute="top" secondItem="asB-1b-lX1" secondAttribute="bottom" constant="88" id="ltc-JQ-CCW"/>
+                            <constraint firstItem="asB-1b-lX1" firstAttribute="centerX" secondItem="JTT-CY-siu" secondAttribute="centerX" id="nfO-fc-wkq"/>
+                            <constraint firstItem="bvB-VK-wcg" firstAttribute="leading" secondItem="onq-8y-Bhs" secondAttribute="leadingMargin" id="oJM-2A-keg"/>
+                            <constraint firstItem="bvB-VK-wcg" firstAttribute="top" secondItem="ucC-8l-pOP" secondAttribute="bottom" constant="526" id="yVX-aQ-rEN"/>
+                            <constraint firstItem="R77-St-MgX" firstAttribute="top" secondItem="AWl-y1-ura" secondAttribute="bottom" constant="90" id="yjh-18-Zq7"/>
+                            <constraint firstItem="JTT-CY-siu" firstAttribute="top" secondItem="asB-1b-lX1" secondAttribute="bottom" constant="63" id="zYs-RO-vOi"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="ePl-8N-dYM"/>
+                                <exclude reference="3kx-Bw-87A"/>
+                                <exclude reference="KPG-JI-0jG"/>
+                                <exclude reference="WQc-ZR-sOL"/>
+                                <exclude reference="ltc-JQ-CCW"/>
+                                <exclude reference="zYs-RO-vOi"/>
+                                <exclude reference="GBB-po-YF3"/>
+                                <exclude reference="Pv0-sP-hXc"/>
+                                <exclude reference="QOu-rT-7Tk"/>
+                                <exclude reference="yjh-18-Zq7"/>
+                                <exclude reference="2Ld-YI-QXj"/>
+                                <exclude reference="Juj-t3-iaw"/>
+                                <exclude reference="jHK-NL-tS1"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="circularSweetiePictureView" destination="JTT-CY-siu" id="iFg-9H-mur"/>
+                        <outlet property="contactSweetieButton" destination="R77-St-MgX" id="LMH-gD-L8V"/>
+                        <outlet property="nameLabel" destination="AWl-y1-ura" id="bT6-FQ-h3r"/>
+                        <outlet property="resetButton" destination="bvB-VK-wcg" id="khM-aD-IZW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WKT-JD-sRz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="922" y="313"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Blur" width="111" height="198"/>
+        <image name="ContactSweetieButton" width="309" height="110"/>
+        <image name="Instructions" width="208" height="86"/>
+        <image name="PlusButton" width="120" height="120"/>
+        <image name="ResetButton" width="49" height="44"/>
+    </resources>
+</document>
